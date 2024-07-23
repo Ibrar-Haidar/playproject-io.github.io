@@ -1,0 +1,6 @@
+<p class="copyright_uVvwQ" id="footertext"></p>
+
+// script.js
+var currentYear = new Date().getFullYear();
+var text = currentYear + " Playproject";
+document.getElementById("footertext").textContent = text;
